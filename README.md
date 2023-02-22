@@ -18,40 +18,40 @@ Trabajos 10%
 
 A continuación se detalla el temario del curso:
 
-Clase 1 – Introducción e historia de los análisis transcriptómicos, de los microarreglos a los estudios de célula única. 
+*Clase 1* – Introducción e historia de los análisis transcriptómicos, de los microarreglos a los estudios de célula única. 
 3-Marzo
 
-Clase 2 – Plataformas de secuenciación para análisis transcriptómicos (media clase). Plataformas de pipelines (Galaxy, etc.)
+*Clase 2* – Plataformas de secuenciación para análisis transcriptómicos (media clase). Plataformas de pipelines (Galaxy, etc.)
 10-Marzo
 
-Clase 3 – Preparación de librerías: métodos y consideraciones técnicas.
+*Clase 3* – Preparación de librerías: métodos y consideraciones técnicas.
 17-Marzo
 
-Clase 4 – Análisis bioinformático (teórico/práctico): alineamiento de secuencias.
+*Clase 4* – Análisis bioinformático (teórico/práctico): alineamiento de secuencias.
 24-Marzo
 
-Clase 5 – Análisis bioinformático (teórico/práctico): Transformación de formatos, feature counts, creación de pileups.
+*Clase 5* – Análisis bioinformático (teórico/práctico): Transformación de formatos, feature counts, creación de pileups.
 31-Marzo
 
-Clase 6 – Análisis bioinformático (teórico/práctico): Análisis Diferencial de Expresión. Métodos más comunes.
+*Clase 6* – Análisis bioinformático (teórico/práctico): Análisis Diferencial de Expresión. Métodos más comunes.
 14-Abril
 
-Clase 7 – Análisis bioinformático (teórico/práctico): Análisis Diferencial de Expresión. Diseños experimentales complejos.
+*Clase 7* – Análisis bioinformático (teórico/práctico): Análisis Diferencial de Expresión. Diseños experimentales complejos.
 21-Abril
 
-Clase 8 – Análisis bioinformático (teórico/práctico): Gene Ontology, Integración con otras bases de datos.
+*Clase 8* – Análisis bioinformático (teórico/práctico): Gene Ontology, Integración con otras bases de datos.
 29-Abril
 
-Clase 9 – Discusión de artículos de investigación (presentación por alumnos): aplicaciones en ciencia básica.
+*Clase 9* – Discusión de artículos de investigación (presentación por alumnos): aplicaciones en ciencia básica.
 5-Mayo
 
-Clase 10 – Discusión de artículos de investigación (presentación por alumnos): aplicaciones en la clínica.
+*Clase 10* – Discusión de artículos de investigación (presentación por alumnos): aplicaciones en la clínica.
 12-Mayo
 
-Clase 11 – Nuevas tecnologías de análisis: transcriptómica de célula única.
+*Clase 11* – Nuevas tecnologías de análisis: transcriptómica de célula única.
 19-Mayo
 
-Clase 12 – Nuevas tecnologías de análisis: transcriptómica espacial.
+*Clase 12* – Nuevas tecnologías de análisis: transcriptómica espacial.
 26-Mayo
 
 Para la clase numero 9 y 10, los alumnos deberan presentar en parejas un articulo donde se utilicen las tecnicas disctutidas en el curso. Los articulos deberan ser propuestos por los alumnos y deberan ser aprobados previo a su presentacion.
