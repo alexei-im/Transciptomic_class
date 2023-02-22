@@ -56,4 +56,5 @@ Clase 12 – Nuevas tecnologías de análisis: transcriptómica espacial.
 
 Para la clase numero 9 y 10, los alumnos deberan presentar en parejas un articulo donde se utilicen las tecnicas disctutidas en el curso. Los articulos deberan ser propuestos por los alumnos y deberan ser aprobados previo a su presentacion.
 
-Instalar por favor R y Rstudio
+Los programas y paquetes que vamos a usar se encontraran instalados en el servidor, pero si gustan trabajar en sus maquinas recomendamos instalar R y Rstudio, con los paquetes de bioconductor Rsubread, edgeR, DESeq2, y de r gplots, reshape2 y ggplot2. En python por favor descargar deeptools
+
