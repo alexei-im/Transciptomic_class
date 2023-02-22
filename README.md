@@ -55,3 +55,5 @@ Clase 12 – Nuevas tecnologías de análisis: transcriptómica espacial.
 26-Mayo
 
 Para la clase numero 9 y 10, los alumnos deberan presentar en parejas un articulo donde se utilicen las tecnicas disctutidas en el curso. Los articulos deberan ser propuestos por los alumnos y deberan ser aprobados previo a su presentacion.
+
+Instalar por favor R y Rstudio
