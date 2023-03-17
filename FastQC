@@ -1,7 +1,9 @@
 Para bajar cualquier RNA-seq 
+En caso de single end
 fastq-dump --gzip SRR18776320
 
-
+En caso de paired-end
+fastq-dump --gzip --split-files SRR18776320
 
 
 Los archivos de RNA con los que se puede trabajar dentro del servidor se encuentran en la siguiente liga
