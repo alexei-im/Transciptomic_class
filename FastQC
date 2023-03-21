@@ -112,7 +112,7 @@ Bowtie esta mas optimizado para secuencias cortas, por que fue creado cuando Ilu
 Por este motivo correremos la siguiente linea
 
 
-bowtie -p 5 -n 1 -l 18 -k 1 -m 2 --best --strata -S /export/storage/users/dvalle/indexes/mm10 hyp-miR-Ad-a.fastq.gz hyp-miR-Ad-a.sam
+bowtie -p 5 -n 1 -l 18 -k 1 -m 2 --best --strata -S /export/storage/users/dvalle/indexes/mm10 /export/storage/users/dvalle/fastq/hyp-miR-Ad-a.fastq.gz hyp-miR-Ad-a.sam
 
 Pero que hace cada una de estas opciones? Acuerdense que lo vamos a preguntar la siguiente clase
 
