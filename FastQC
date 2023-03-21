@@ -98,7 +98,21 @@ Donde el archivo .fq.gz es la libreria ya procesada
 ALINEAMIENTO
 Vamos a realizar alineamiento con HISAT2
 
+En este ejemplo estamos utilizando ambas librerias en un tipo de secuenciacion paired-end
+
 hisat2 -p 3 --no-mixed --no-discordant --no-unal -x /export/storage/users/dvalle/indexes/mm10.ensembl99.genes -1 /export/storage/users/dvalle/fastq/hipp-RNA-WT-a-R1.fastq.gz -2 /export/storage/users/dvalle/fastq/hipp-RNA-WT-a-R2.fastq.gz -S hipp-RNA-WT-a.sam
-Bowtie 2 para miRNA
+
+Que pasaria si solo utilizamos una como single-end? Intentalo
+
+Que pasaria si utilizamos la opcion --rna-strandness? que hace esta opcion?
+
+
+Bowtie  para miRNA
+Bowtie esta mas optimizado para secuencias cortas, por que fue creado cuando Ilummina solo secuenciaba 35 pb, por este motivo es el mas optimo para alinear micro RNA
+Por este motivo correremos la siguiente linea
+
 
 bowtie -p 5 -n 1 -l 18 -k 1 -m 2 --best --strata -S /export/storage/users/dvalle/indexes/mm10 hyp-miR-Ad-a.fastq.gz hyp-miR-Ad-a.sam
+
+Pero que hace cada una de estas opciones? Acuerdense que lo vamos a preguntar la siguiente clase
+
