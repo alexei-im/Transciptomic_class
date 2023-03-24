@@ -20,7 +20,7 @@ conda activate deeptools
 bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/storage/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs --ignoreDuplicates --samFlagInclude 64
 
 Si es de miRNA no usar --ignoreDuplicates
-
+Tambien chequen que estan ocupando la opcion --samFlagInclude, esta tiene que ser consistente con su libreria
 #En buluc
 bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/space1/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs --ignoreDuplicates  --samFlagInclude 64
 
