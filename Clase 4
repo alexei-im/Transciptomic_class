@@ -9,14 +9,20 @@ samtools view -bSq 10 hyp-miR-Ad-a.sam | samtools sort --threads 5 -T hyp-miR-Ad
 
 samtools index hyp-miR-Ad-a.bam 
 
-samtools view hyp-miR-Ad-a.bam 
+samtools view hyp-miR-Ad-a.bam | head -100
 
 rm hyp-miR-Ad-a.sam 
 
 
 conda activate deeptools
 
+#En tepeu
 bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/storage/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs  --ignoreDuplicates --samFlagInclude 64
+
+
+#En buluc
+bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/space1/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs  --ignoreDuplicates --samFlagInclude 64
+
 
 conda deactivate
 
@@ -26,6 +32,10 @@ R
 
 library(Rsubread)
 bfiles = c("hyp-miR-Ad-a.bam")
+#En tepeu
 fc <- featureCounts(files=bfiles, annot.ext="/export/storage/users/dvalle/indexes/mm10-ensembl_99-genes.gtf", isGTFAnnotationFile=T, useMetaFeatures=T, minMQS=10, largestOverlap=T, isPairedEnd=T, requireBothEndsMapped=T, nthreads=5)
+
+#En buluc
+fc <- featureCounts(files=bfiles, annot.ext="/export/space1/users/dvalle/indexes/mm10-ensembl_99-genes.gtf", isGTFAnnotationFile=T, useMetaFeatures=T, minMQS=10, largestOverlap=T, isPairedEnd=T, requireBothEndsMapped=T, nthreads=5)
 
 #Si tu libreria es single-end, hay que desactivar las opciones especificas para paired-end
