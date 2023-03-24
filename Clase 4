@@ -17,11 +17,12 @@ rm hyp-miR-Ad-a.sam
 conda activate deeptools
 
 #En tepeu
-bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/storage/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs  --ignoreDuplicates --samFlagInclude 64
+bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/storage/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs --ignoreDuplicates --samFlagInclude 64
 
+Si es de miRNA no usar --ignoreDuplicates
 
 #En buluc
-bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/space1/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs  --ignoreDuplicates --samFlagInclude 64
+bamCoverage -p 5 -b hyp-miR-Ad-a.bam -o hyp-miR-Ad-a.bw -bs 20 --blackListFileName /export/space1/users/dvalle/genome/mm10-blacklist-v2.bed --normalizeUsing BPM --skipNAs --ignoreDuplicates  --samFlagInclude 64
 
 
 conda deactivate
